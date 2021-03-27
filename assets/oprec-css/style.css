@@ -1,0 +1,88 @@
+.page-cek-kelulusan{
+    display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     width: 100vw;
+     min-height: 100vh;
+     padding-right: 5vw;
+     padding-left: 5vw;
+     padding-top: 100px;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+    background-image: url('../img/bg-icons.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #12141d), to(rgba(18, 20, 29, 0.68))), url("../img/bg-icons.jpg");
+     background-image: linear-gradient(180deg, #12141d 30%, rgba(18, 20, 29, 0.68)), url("../img/bg-icons.jpg");
+     background-position: 0px 0px, 50% 0%;
+     background-size: auto, cover;
+     background-attachment: fixed;
+}
+
+.form-control{
+    border: none;
+}
+
+.wallpaper-result{
+    background-color: #12141d;
+    background-image: url('../img/bg-icons.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 1.2s;
+
+}
+
+
+.kotak-result{
+    background-color: #12141d;
+    box-shadow: 0 0 9px 0 rgb(0, 0, 0);
+}
+
+
+.value{
+    width: 100%;
+}
+
+@media (max-width:770px) {
+    .foto{
+        height: 150px;
+    }
+    table{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:991px) {
+    .teks{
+        font-size: 11px;
+    }
+    .value{
+        width: 100%;
+    }
+}
+
+.foto:hover{
+    opacity: 0;
+    transition: 1.2s;
+    cursor: none;
+}
+
+.download{
+    width: 50%;
+}
+
+.download:hover{
+    /* opacity: 0; */
+    transition: 0.8s;
+    /* cursor: none; */
+}

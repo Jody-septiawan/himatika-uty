@@ -1,0 +1,281 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../font/Roboto.ttf');
+  }
+
+body{
+    font-family: Roboto;
+}
+
+.container{
+    transition: 1s;
+}
+
+/* NAVBAR */
+.bg-navbar{
+    background-color: white;
+}
+
+.logo-navbar{
+    height: 40px;
+}
+
+.navbar{
+    /* background-color: white; */
+}
+
+.container:hover{
+    /* background-color: rgba(255, 255, 255, 0.74); */
+}
+
+.nav-nav{
+    color: rgb(7, 7, 7);
+    opacity: 0;
+    transform: translatey(-10px);
+    transition: 1s;
+    /* padding: 8px; */
+}
+
+.nav-nav-go{
+    opacity: 1;
+    transform: translatey(0);
+}
+
+.nav-nav:hover{
+    color: #ddbc00;
+    transition: 0.3s;
+    transform: translateY(2px);
+    text-decoration: none;
+}
+
+.navbar-atas{
+    transition: 1.5s;
+}
+
+.name-himatika{
+	opacity: 0;
+    transform: translateY(-70px);
+	transition: 1s;
+}
+
+.name-go{
+	opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* Carousel */
+.carousel-item{
+    max-height: 720px;
+    max-width: 100%;
+}
+
+.carousel-item img{
+    max-height: 720px;
+    max-width: 100%;
+}
+
+.capt{
+    color: #fff;;
+}
+
+
+/* ABOUT */
+.about{
+    background-image: url('../img/bg.svg');
+    background-attachment: fixed;
+}
+.logo-about{
+    width: 300px;
+}
+
+.about{
+    padding: 70px 0;
+}
+
+.ah1{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 1.2s;
+}
+
+.ah1-go{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.ap{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 2s;
+}
+
+.ap-go{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.aimg{
+    opacity: 0;
+    transform: translateX(120px);
+    transition: 2s;
+}
+
+.aimg-go{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+@media only screen and (max-width: 920px){
+    .logo-about{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    .logo-about{
+        width: 150px;
+    }
+}
+
+/* VISI MISI */
+.visi-misi{
+    /* box-shadow: 0px 0px 50px 10px grey; */
+
+}
+
+
+/* AGENDA */
+.agenda{
+    background-image: url('../img/bg4.svg');
+    background-attachment: fixed;
+
+}
+
+/* FOOTER */
+.footer{
+    background-color: rgb(27, 24, 24);
+    color: wheat;
+
+}
+
+.fa-fb {
+    background: #4b6eb9;
+    padding: 14px 18px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    color: white; }
+  
+.fa-fb:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.2;
+    -o-transition: 0.2;
+    transition: 0.2s; 
+}  
+
+.fa-ig {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    /* background: #4b6eb9; */
+    padding: 13px 16px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    color: white; }
+  
+.fa-ig:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.2;
+    -o-transition: 0.2;
+    transition: 0.2s; 
+}  
+
+.fa-tw {
+    background: #55acee;
+    padding: 14px 16px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    color: white; }
+  
+  .fa-tw:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.2;
+    -o-transition: 0.2;
+    transition: 0.2; }
+
+.footer-real{
+    background-color: rgb(19, 19, 19);
+}
+
+/* PENGURUS */
+
+.pengurus{
+    background-image: url('../img/bg-6.svg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+}
+
+.bg-pengurus{
+    background-color: rgba(0, 74, 135, 0.568);
+    box-shadow: 0px 0px 20px 0px rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+.bg-pengurus:hover{
+    box-shadow: 0px 0px 0px 0px rgb(34, 34, 34);
+}
+
+.img-pengurus{
+    width: 100%;
+    background-color: #004B87;
+    padding: 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.623);
+  }
+  
+  .col-md-2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .span{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      letter-spacing: 0.1em;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 1px;
+      /* -webkit-text-stroke-color: #fff; */
+      text-shadow: 5px 5px #202020;
+  }

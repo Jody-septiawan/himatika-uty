@@ -1,0 +1,18 @@
+body {
+    background-color: #004B87 ;    
+}
+
+.shadowc{
+    box-shadow: 0 0 30px 0 rgb(0, 0, 0);
+}
+
+.tombol-login{
+    background-color: rgb(66, 193, 231);
+    color: #fff;
+    transition: 1.2s;
+}
+
+.tombol-login:hover{
+    background-color: rgb(20, 36, 179);
+    color: #fff;
+}
